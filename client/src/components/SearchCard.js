@@ -3,7 +3,7 @@ import { UserContext } from "../context/UserProvider";
 import FavShowsList from "./FavShowsList";
 
 export default function SearchCard( { result } ) {
-    const {title, genres, output_language, overview, backdropURLs, streamingInfo, imdbRating, year } = result
+    const { title, genres, output_language, overview, backdropURLs, streamingInfo, imdbRating, year } = result
 
     const streamingPlatform = streamingInfo?.us
     const streamingKeys = streamingPlatform ? Object.keys( streamingPlatform ) : []

@@ -26,7 +26,7 @@ authRouter.post( "/signup", ( req, res, next ) => {
             return res.status( 201 ).send( { token, user:savedUser.withoutPassword() } )
         } )
     } )
-} )
+} );
 
 // login
 authRouter.post( '/login', ( req, res, next ) => {
@@ -52,6 +52,6 @@ authRouter.post( '/login', ( req, res, next ) => {
             return res.status( 200 ).send( { token, user: user.withoutPassword() } )
           } )
     } )
-} )
+} );
 
 module.exports = authRouter

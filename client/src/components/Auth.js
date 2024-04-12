@@ -55,7 +55,7 @@ export default function Auth() {
               btnText="Sign up"
               errMsg={ errMsg }
               /> 
-              <p onClick={ toggleForm }>Already a member?</p>
+              <button className='auth-button' onClick={ toggleForm }>Already a member?</button>
             </>}
             <Search 
                 handleChange={ handleChange }
@@ -75,7 +75,7 @@ export default function Auth() {
                 btnText="Login"
                 errMsg={ errMsg }
                 /> 
-              <p onClick={ toggleForm }>Not a member?</p>
+              <button className='auth-button' onClick={ toggleForm }>Not a member?</button>
             </>
             }
             <Search 

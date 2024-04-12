@@ -26,6 +26,10 @@ button {
   border-radius: 5px;
 }
 
+.auth-button {
+  margin-left: 5vw;
+}
+
 .search-btn {
   border: 2px solid transparent;
 }

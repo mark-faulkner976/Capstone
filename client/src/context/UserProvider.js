@@ -113,7 +113,7 @@ export default function UserProvider({ children }) {
       token: "",
       todos: []
     })
-    window.location.reload()
+    // window.location.reload()
   }
 
   // handle error
